@@ -9,6 +9,7 @@ public class counter {
         String uniqueEmail = emailPrefix + counter + emailPostfix;
         counter++; // Increment counter after generating the email
         return uniqueEmail;
+        
     }
     
     public static void main(String[] args) {
